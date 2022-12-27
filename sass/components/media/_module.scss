@@ -1,0 +1,34 @@
+.media {
+  display: flex;
+}
+
+.media__title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.166;
+  color: var(--white-text-color);
+  margin-bottom: 8px;
+}
+
+.media__item {
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.media__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media__icon {
+  width: 15px;
+  height: 15px;
+
+  &--instagram {
+    fill: blue;
+    background-color: blue;
+  }
+}

@@ -1,0 +1,34 @@
+.feedback-form {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-form__wrapper {
+}
+
+.feedback-form__input {
+  width: 637px;
+  height: 74px;
+  padding: 30px;
+
+  font-size: 14px;
+  line-height: 1.142;
+  color: #0f0000;
+  opacity: 1;
+
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 1.142;
+    color: #0f0000;
+    opacity: 0.6;
+  }
+}
+
+.feedback-form__button {
+  max-width: 137;
+}

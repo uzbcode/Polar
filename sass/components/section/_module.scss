@@ -1,0 +1,58 @@
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &--best-offer {
+    padding-top: 141px;
+    padding-bottom: 146px;
+    background-color: var(--second-bg-color);
+    background-image: url(../images/1160/best-offers/1/img@1x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 920px;
+  }
+
+  &--product {
+    padding-top: 137px;
+    padding-bottom: 112px;
+  }
+  &--feedback {
+    padding-top: 0;
+    padding-bottom: 150px;
+  }
+
+  &--application {
+    padding-top: 122px;
+    padding-bottom: 136px;
+    background-color: var(--second-bg-color);
+  }
+
+  &--feedback-form {
+    padding-top: 191px;
+    padding-bottom: 146px;
+  }
+
+  &--footer {
+    padding-top: 73px;
+    padding-bottom: 111px;
+    background-color: var(--footer-bg-color);
+  }
+}
+
+.section__title {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 1.38;
+  text-align: center;
+  padding-bottom: 64px;
+
+  &--feedback-form {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.181;
+    color: #000000;
+    padding-bottom: 28px;
+  }
+}

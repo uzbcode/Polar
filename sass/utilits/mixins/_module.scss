@@ -1,0 +1,13 @@
+@mixin text(
+  $weight: 400,
+  $size: 14px,
+  $height: 16px,
+  $color: var(--main-text-color),
+  $opacity: 0.6
+) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height/$size;
+  color: $color;
+  opacity: $opacity;
+}

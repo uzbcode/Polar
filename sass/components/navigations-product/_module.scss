@@ -1,0 +1,25 @@
+.navigations-product {
+  margin-right: 150px;
+}
+
+.navigations-product__item {
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.navigations-product__link {
+  font-size: 12px;
+  line-height: 1.166;
+  color: var(--white-text-color);
+
+  opacity: 0.8;
+  transition: opacity 250ms linear;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}

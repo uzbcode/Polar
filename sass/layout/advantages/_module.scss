@@ -1,0 +1,48 @@
+.advantages {
+  display: flex;
+}
+
+.advantages__item {
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 33px 26px 28px 26px;
+  cursor: pointer;
+  transition: box-shadow 250ms linear;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  }
+}
+
+.advantages__image {
+  margin-bottom: 23px;
+}
+
+.advantages__title {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000000;
+
+  padding-bottom: 9px;
+}
+
+.advantages__description {
+  font-family: "Hind Madurai";
+  font-size: 14px;
+  line-height: 1.357;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}

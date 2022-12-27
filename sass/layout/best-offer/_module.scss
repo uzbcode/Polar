@@ -1,0 +1,21 @@
+.best-offer {
+}
+
+.best-offer__title {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 1.108;
+  padding-bottom: 16px;
+}
+
+.best-offer__description {
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.6;
+  padding-bottom: 35px;
+}
+
+.best-offer__link {
+  @extend %button-link;
+}
