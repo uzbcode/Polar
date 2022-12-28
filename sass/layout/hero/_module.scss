@@ -1,10 +1,9 @@
 .hero {
-  height: 862px;
+  background-image: url(../images/1160/hero/2/img@1x.png),
+  url(../images/1160/hero/1/img@1x.png), url(../images/1160/hero/3/img@1x.png);
   padding-top: 285px;
   padding-bottom: 213px;
   background-color: var(--second-bg-color);
-  background-image: url(../images/1160/hero/2/img@1x.png),
-    url(../images/1160/hero/1/img@1x.png), url(../images/1160/hero/3/img@1x.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: auto, auto, auto;
   background-position: 910px 251px, 1060px 126px, 1185px 400px;
